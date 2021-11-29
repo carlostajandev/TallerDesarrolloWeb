@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #ebebeb;
+    color: #005282;
+}
+
+.navbar {
+    height: 50px;
+    padding: 0 60px;
+    list-style: none;
+}
+
+.navbar > li {
+    height: 100%;
+    line-height: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar a:hover{
+    color: rgb(180, 13, 138);
+    font-weight: bolder;
+}
+
+.bg-blue {
+    background-color: #005282;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.informacion {
+    min-height: 300px;
+    background-color: rgb(180, 13, 138);
+    color: white;
+    position: relative;
+}
+
+.content-descripcion {
+    width: 70%;
+    padding: 60px 40px;
+}
+
+.descripcion {
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.precios {
+    margin-bottom: 20px;
+}
+
+.contenedor-video {
+    background-color: white;
+    color: gray;
+    width: 280px;
+    height: 450px;
+    border: 5px solid white;
+    position: absolute;
+    left: 77%;
+    top: 20%;
+}
+
+.contenedor-video large {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.body-contenedor-video {
+    padding: 5px 25px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn-purpura {
+    background-color: rgb(175, 35, 122);
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.btn-border {
+    border: 1px solid gray;
+    color: gray;
+    font-weight: bolder;
+}
+
+.btn-link-shared {
+    border: none;
+    color: rgb(175, 35, 122);
+    font-weight: bolder;
+}
+
+video {
+    width: 100%;
+}
+
+.contenedor {
+    padding: 40px;
+}
+
+.objetivos {
+    margin-bottom: 40px;
+}
+
+.contenedor ul {
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 310px;
+}
+
+.contenedor ul li, .descripcion p {
+    margin-bottom: 5px;
+}
+
+.contenedor hr {
+    margin: 20px 0;
+}
+
+.descripcion p {
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.card {
+    padding: 20px;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.card img {
+    width: 150px;
+}
+
+.text-body-card {
+    margin: 0 20px;
+    width: 60%;
+}
+
+.text-body-card small {
+    text-align: justify;
+}
+
+.body-card {
+    width: 85%;
+}
+
+.card a {
+    color: #005282;
+}
+
+.card p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario-contacto {
+    margin-top: 40px;
+}
+
+.formulario-contacto form {
+    width: 25%;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 3px 3px 8px gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.formulario-contacto p {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.form-group label{
+    color: rgb(175, 35, 122);
+    font-weight: bolder;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.form-group input {
+    height: 30px;
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    padding: 20px 0;
+    background-color: #005282;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+

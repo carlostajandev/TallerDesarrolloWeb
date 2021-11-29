@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Formulario campos</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar bg-blue">
+            <h1>FORMULARIO CON VALIDACIÓN DE CAMPOS</a></h1>
+        </div>
+    </header>
+    <form action="" class="form">
+
+        <table>
+            <tr>
+                <td><label for="campo1">Campo para ingresar números con máximo 10 caracteres</label></td>
+                <td><input type="number" maxlength="10" id="campo1"></td>
+            </tr>
+
+            <tr>
+                <td><label for="campo2">Campo para ingresar texto multi línea con máximo 200 caracteres.
+                        El elemento debe tener tres filas.
+                    </label></td>
+                <td><textarea id="campo2" cols="30" rows="3" maxlength="200"></textarea></td>
+            </tr>
+
+            <tr>
+                <td><label for="campo3">Campo para ingresar fecha</label></td>
+                <td><input type="date" id="campo3"></td>
+            </tr>
+
+            <tr>
+                <td><label for="campo4">Campo para ingresar hora</label></td>
+                <td><input type="time" id="campo4"></td>
+            </tr>
+
+            <tr>
+                <td><p>Campo que permita seleccionar una casilla</p></td>
+                <td>
+                    <label for="campo5" class="label-radio">Casilla</label>
+                    <input type="checkbox" name="campo5" id="campo5" value="campo5">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p>Campo que permita seleccionar de tres opciones, una (radio).</p>
+                </td>
+                <td>
+                    <label for="opcion1" class="label-radio">Opción 1</label>
+                    <input type="radio" name="campo6" id="opcion1" value="opcion1">
+                    <label for="opcion2" class="label-radio">Opción 2</label>
+                    <input type="radio" name="campo6" id="opcion2" value="opcion2">
+                    <label for="opcion3" class="label-radio">Opción 3</label>
+                    <input type="radio" name="campo6" id="opcion3" value="opcion3">
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="campo7">Campo para seleccionar colores</label></td>
+                <td><input type="color" name="" id="campo7"></td>
+            </tr>
+
+            <tr>
+                <td><label for="campo8">Campo para ingresar email.</label></td>
+                <td><input type="email" id="campo8"></td>
+            </tr>
+
+            <tr>
+                <td><label for="campo9">Campos lista desplegable</label></td>
+                <td>
+                    <select id="campo9">
+                        <option value="">Seleccionar...</option>
+                        <option value="verde">Uno</option>
+                        <option value="purpura">Dos</option>
+                        <option value="naranja">Tres</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="campo10">Campos lista desplegable que pueda seleccionar varias opciones</label></td>
+                <td>
+                    <select id="campo10" multiple class="select-multiple">
+                        <option value="">Seleccionar...</option>
+                        <option value="verde">Uno</option>
+                        <option value="purpura">Dos</option>
+                        <option value="naranja">Tres</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="campo11">Campo entrada de texto que permita que a medida que vaya digitando
+                        las iniciales, seleccionar de una lista las coincidencias
+                    </label></td>
+                <td>
+                    <input type="search" list="campo11" maxlength="10">
+                    <datalist id="campo11">
+                        <option value="Hola">
+                            <option value="Vaca">
+                            <option value="Lola">
+                            <option value="Sol">
+                            <option value="Soledad">
+                    </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><button class="btn btn-purpura">Enviar</button></td>
+            </tr>
+        </table>
+    </form>
+    <footer>
+        <p>Desarrollo web</p>
+    </footer>
+</body>
+
+</html>
